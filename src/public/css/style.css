@@ -1,0 +1,50 @@
+.product-image {
+   
+ width: 200px;
+
+   height: auto;
+
+   border: 2px solid #ccc;
+   /* En tunn grå ram runt bilden */
+
+   padding: 5px;
+
+   margin: 10px;
+
+   display: block;
+
+   margin-left: auto;
+
+   margin-right: auto;
+
+
+.product-container {
+
+   display: inline-block;
+
+   position: relative;
+
+   overflow: hidden;
+   /* Se till att inga element går utanför */
+
+
+}
+
+
+.product-container a {
+
+   display: block;
+
+   width: 30%;
+
+   height: 20%;
+
+}
+
+.product-container:hover {
+
+   cursor: pointer;
+   /* Markören visas endast när du är över hela container-diven */
+
+}
+}
